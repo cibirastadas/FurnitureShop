@@ -1,0 +1,35 @@
+.footer{
+    padding-top: 10px;
+    width: 100%;
+    background-color: #181818;
+    
+}
+.inner-footer{
+    margin-top: 5px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    flex-wrap: wrap;
+}
+.inner-footer p{
+text-transform: uppercase;
+color: white;
+letter-spacing: 3px;
+font-size: 17px;
+margin-bottom: 10px;
+}
+.inner-footer li{
+    font-size: 17px;
+    margin-bottom: 5px;
+    color: #b3b0b0;
+    cursor: pointer;
+}
+.fas,.far{
+    margin-right: 15px;
+}
+.footer-year{
+    text-align: center;
+    color: white;
+    padding: 12px;
+    background-color: #2c2c2c;
+}

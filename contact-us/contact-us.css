@@ -1,0 +1,134 @@
+*{
+    font-family: 'Roboto', sans-serif;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color:  #f7f7f7;
+}
+.cover-root{
+    background-image: url(../images/contact-us-cover.jpg);
+    max-width: 100vw;
+    height: 50vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+}
+.cover-text-parent{
+    height: 50%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.37);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cover-text-parent h1{
+    color: white;
+    text-transform: uppercase;
+    font-size: 3rem;
+    letter-spacing: 1rem;
+}
+.container-root{
+    display: flex;
+}
+#aside-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 20%;
+    /* height: 100%; */
+    line-height: 2rem;
+    font-size: 1.2rem;
+    padding: 15px;
+    text-align: center;
+}
+.container-content{
+    width: 80%;
+}
+#map-root{
+    background-color: white;
+    width: 95%;
+    margin: 2rem 0;
+    padding: 2rem 0;
+}
+#map-root p{
+    font-size: 2rem;
+    text-align: center;
+    letter-spacing: 0.5rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 2rem;
+}
+.map{
+    text-align: center;
+}
+.contact-us-text{
+    margin-bottom: 2rem;
+    font-size: 2rem;
+    letter-spacing: 0.5rem;
+    font-weight: bold;
+    text-transform: uppercase;
+
+}
+#form-root{
+    margin-top: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: white;
+    margin-bottom: 2rem;
+    width: 95%;
+}
+.form-child{
+    margin: 20px 0px;
+}
+.form-child input{
+    width: 25vw;
+    height: 5vh;
+}
+.form-child textarea{
+    width: 35vw;
+    height: 15vh;
+    resize: none;
+}
+.form-child input, textarea{
+    outline: none;
+    border: none;
+    border-bottom: 1px solid rgb(161, 160, 160);
+}
+.form-child button{
+    font-size: 1rem;
+    letter-spacing: 0.2rem;
+    width: 13vw;
+    height: 5vh;
+    background-color: transparent;
+}
+.form-child input::placeholder, textarea::placeholder{
+    font-size: 1.2rem;
+    color: black;
+}
+.form-parent{
+    padding-right: 2rem;
+    border-right: solid 1px black;   
+}
+.contacts-parent p{
+    padding-top: 10px;
+    font-size: 1.2rem;
+}
+.contacts-parent{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding:2rem;
+}
+.child-contacts{
+    font-size: 1.2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
