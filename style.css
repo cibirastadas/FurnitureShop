@@ -1,5 +1,4 @@
 *{
-
     font-family: 'Roboto', sans-serif;
     list-style: none;
     text-decoration: none;
@@ -10,14 +9,19 @@
 .cover-root{
     position: relative;
 }
+.logo{
+    position: absolute;
+    top:0;
+    left: 0;
+}
 .cover-image-child{
     background-image: url(images/home-cover.jpg);
     max-width: 100vw;
-    height: 60vh;
+    height: 50vh;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    filter: blur(2px);
+    opacity: 0.5;
 }
 .cover-text-parent{
     width: 100%;
@@ -29,17 +33,19 @@
     position: absolute;
     z-index: 1;
     margin: auto;
+
 }
 .cover-text-parent h1{
     text-align: center;
     font-size: 2.5rem;
-    color: white;
+    color: rgb(0, 0, 0);
     margin-bottom: 20px;
 }
 .cover-button-child {
     margin-top: 1rem;
     color: white;
     font-size: 1.5rem;
+    font-weight: bold;
     background-color: transparent;
     border:1px solid white;
     letter-spacing: 0.5rem;
@@ -70,32 +76,84 @@
     border-bottom: 1px solid black;
 }
 .three-images-parent{
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
+   display: flex;
+   flex-wrap: wrap;
 }
 .image-child{
     border: 1px solid black;
-    margin: 30px;
+    margin: 2rem 2rem; 
     display: flex;
     justify-content: center;
     flex-direction: column;
-    padding: 15px;
+   padding: 2rem;
     border-radius: 30px;
     box-shadow: 2px 2px 1px 3px;
-    width: 20%;
-    height: auto;
+    flex: 1 1 0;
+    min-width: 250px;
     transition: transform 1s;
     text-align: center;
+    cursor: pointer;
 }
+.image-child .fas{
+    font-size: 8rem;
+    }
 .image-child:hover{
-    transform:scale(1.2,1.2);
+    transform:scale(1.1,1.1);
 }
 .image-text1-children{
     letter-spacing: 0.2rem;
-    font-size: 2rem;
+    font-size: 1.8rem;
     text-align: center;
 }
 .image-text2-children{
 text-align: center;
+}
+@media (max-width: 700px){
+    .cover-text-parent h1{
+        font-size: 2rem;
+    }
+    .cover-button-child{
+        font-size: 1.2rem;
+    }
+     .home-why-us p{
+        font-size: 2rem;
+    }
+}
+@media (max-width:440px){
+    .cover-text-parent h1{
+        font-size: 1.5rem;
+    }
+    .cover-button-child{
+        font-size: 1rem;
+    }
+}
+@media (max-width: 570px){
+    .home-why-us p{
+        font-size: 2rem;
+    }
+}
+@media (max-width: 440px){
+    .home-why-us p{
+        font-size: 1.5rem;
+    }
+}
+@media (max-width:370px){
+    .home-why-us p{
+        font-size: 1.1rem;
+    }
+}
+@media (max-width:1260px){
+    .image-child{
+        flex: 40%;
+    }
+    .image-child{
+      
+    }
+}
+@media(max-width:800px){
+    .inner-footer{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
 }

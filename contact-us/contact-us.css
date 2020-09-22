@@ -35,13 +35,15 @@ body{
 }
 .container-root{
     display: flex;
+    width: 100%;
+    height: auto;
 }
 #aside-info{
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     width: 20%;
-    /* height: 100%; */
+    height: auto;
     line-height: 2rem;
     font-size: 1.2rem;
     padding: 15px;
@@ -49,12 +51,19 @@ body{
 }
 .container-content{
     width: 80%;
+    height: auto;
 }
 #map-root{
     background-color: white;
     width: 95%;
-    margin: 2rem 0;
-    padding: 2rem 0;
+    padding: 2rem 0rem;
+}
+.map{
+    width: 100%;
+    text-align: center;
+}
+.map iframe{
+    width: 80%;
 }
 #map-root p{
     font-size: 2rem;
@@ -64,17 +73,6 @@ body{
     font-weight: bold;
     margin-bottom: 2rem;
 }
-.map{
-    text-align: center;
-}
-.contact-us-text{
-    margin-bottom: 2rem;
-    font-size: 2rem;
-    letter-spacing: 0.5rem;
-    font-weight: bold;
-    text-transform: uppercase;
-
-}
 #form-root{
     margin-top: 2rem;
     display: flex;
@@ -83,6 +81,14 @@ body{
     background-color: white;
     margin-bottom: 2rem;
     width: 95%;
+    padding: 1rem 0rem;
+}
+.contact-us-text{
+    margin-bottom: 2rem;
+    font-size: 2rem;
+    letter-spacing: 0.5rem;
+    font-weight: bold;
+    text-transform: uppercase;
 }
 .form-child{
     margin: 20px 0px;
