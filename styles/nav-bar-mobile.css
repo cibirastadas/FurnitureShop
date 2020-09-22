@@ -1,0 +1,58 @@
+.body{
+    position: relative;
+}
+#nav-bar-mobile {
+    width: 100%;
+    height: auto;
+    text-align: end;
+    position: fixed;
+    z-index: 500;
+    background-color: white;
+    border-bottom: 1px solid rgb(218, 218, 218);
+}
+.logo{
+    position: absolute;
+    top:0;
+    left: 0;
+}
+#nav-bar-mobile label{
+    padding: 15px 15px;
+} 
+#nav-bar-mobile label,#hamburger{
+    display: none;
+}
+#nav-bar-mobile ul{
+    display: flex;
+    justify-content: flex-end;
+}
+#nav-bar-mobile li{
+    padding: 15px 0px;
+}
+#nav-bar-mobile li a{
+    padding: 12px 12px;
+    color: black;
+}
+#nav-bar-mobile ul a:hover{
+    color: white;
+    background-color: black;
+}
+@media (max-width: 700px) {
+    #nav-bar-mobile label{
+        display: block;
+        cursor: pointer;
+    }
+    #nav-bar-mobile ul{
+        padding: 0;
+        text-align: center;
+        flex-direction: column;
+        justify-content: center;
+        display: none;
+    }
+    #nav-bar-mobile ul li{
+        border:1px solid rgb(235, 235, 235);
+    }
+    #hamburger:checked + ul{
+        display: block;
+    }
+    
+}
