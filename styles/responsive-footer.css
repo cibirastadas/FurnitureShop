@@ -1,0 +1,10 @@
+@media(max-width:700px){
+    .footer{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .inner-footer-contacts{
+        margin: 0.5rem 0;
+    }
+}
