@@ -66,9 +66,10 @@ body{
     margin-bottom: 2rem;
 }
 .funriture-image-child {
-    width: 25%;
+    min-width: 180px;
+    flex: 25%;
     height: auto;
-    margin: 2rem;
+    margin: 1rem;
     padding: 15px;
     border: 1px solid rgb(204, 203, 203);
     cursor: pointer;
@@ -89,4 +90,27 @@ body{
 .funriture-image-child p{
     padding-top: 0.5rem;
     font-size: 1.2rem;
+}
+@media (max-width:900px){
+    .container-root{
+        flex-direction: column;
+    }
+    #aside-info{
+        width: 100%;
+        flex-direction: column;
+        text-align: center;
+        border-bottom: 1px solid rgb(197, 197, 197) ;
+        background-color: #f7f7f7;
+    }
+    .time{
+        padding: 0 1rem;
+        text-align: center;
+    }
+    .container-content{
+        width: 90%;
+        margin: auto;
+    }
+    .funritures-image-container{
+        width: 100%;
+    }
 }
