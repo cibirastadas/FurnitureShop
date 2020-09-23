@@ -142,19 +142,26 @@ body{
     flex-direction: column;
     align-items: center;
 }
-@media(max-width:500px){
-    .cover-text-parent h1{
-    font-size: 2rem;
+@media (max-width:1090px){
+    .form-root{
+        flex-direction: column;
+        text-align: center;
     }
-    #map-root p{
-        font-size: 1.5rem;
+    .form-parent{
+        border: none;
+        width: 100%;
+    }
+    .contacts-parent{
+        width: 100%;
+        flex-direction: row;
+    }
+    .child-contacts{
+        padding: 0 2rem;
+        flex:1 1 20%;
+        text-align: center;
     }
 }
-@media(max-width:380px){
-    .cover-text-parent h1{
-    font-size: 1.5rem;
-    }
-}
+
 @media (max-width:900px){
     .container-root{
         flex-direction: column;
@@ -183,6 +190,8 @@ body{
     }
   
 }
+
+
 @media (max-width:700px){
     .map{
         height: 500px;
@@ -197,33 +206,17 @@ body{
         font-size: 1rem;
     }
 }
-@media (max-width:480px){
-    .map{
-        height: 400px;
-    }
-}
-@media (max-width:1090px){
-    .form-root{
-        flex-direction: column;
-        text-align: center;
-    }
-    .form-parent{
-        border: none;
-    }
-    .form-parent{
-        width: 100%;
-    }
-    .contacts-parent{
-        width: 100%;
-        flex-direction: row;
-    }
-    .child-contacts{
-        padding: 0 2rem;
-        flex:1 1 20%;
-        text-align: center;
-    }
-}
+
 @media (max-width:600px){
+    .cover-text-parent h1{
+        font-size: 2rem;
+        }
+        #map-root p{
+            font-size: 1.5rem;
+        }
+        .map{
+            height: 400px;
+        }
     .contacts-parent{
         flex-direction: column;
         align-items: flex-start;
@@ -234,4 +227,12 @@ body{
         margin: 2rem 0;
         text-align: start;
     }
+
 }
+@media(max-width:380px){
+    .cover-text-parent h1{
+    font-size: 1.5rem;
+    }
+}
+
+

@@ -70,16 +70,6 @@
     margin: inherit;
     letter-spacing: 0.2rem;
 }
-@media(max-width:500px){
-    .about-us-text{
-    font-size: 2rem!important;
-    }
-}
-@media(max-width:380px){
-    .about-us-text{
-    font-size: 1.5rem!important;
-    }
-}
 @media (max-width:900px){
     .container-root{
         flex-direction: column;
@@ -127,4 +117,14 @@
     .description-parent p{
         font-size: 1rem;
     }
+    .about-us-text{
+    font-size: 2rem!important;
+    }
+} 
+@media(max-width:380px){
+    .about-us-text{
+    font-size: 1.5rem!important;
+    }
 }
+
+
