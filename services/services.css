@@ -82,5 +82,62 @@
         background-color: #1c2732;
     }
     .table-parent-service tr:nth-child(even){
-        background-color: #bdc3c7;
+        background-color: #eee;
+    }
+    @media(max-width:500px){
+        .cover-text-parent h1{
+        font-size: 2rem;
+        }
+    }
+    @media(max-width:380px){
+        .cover-text-parent h1{
+            font-size: 1.5rem;
+            }
+    }
+    
+    @media (max-width:900px){
+        .container-root{
+            flex-direction: column;
+        }
+        #aside-info{
+            width: 100%;
+            flex-direction: row;
+            text-align: left;
+            border-bottom: 1px solid rgb(197, 197, 197) ;
+            background-color: #f7f7f7;
+        }
+        .number{
+            padding: 0 1rem;
+            text-align: center;
+        }
+        .container-content{
+            padding: 0;
+            margin: auto;
+            width: 90%;
+        }
+        .table-root-service{
+            width: 100%;
+        }
+    }
+    @media (max-width:730px){
+        #aside-info{
+            text-align: center;
+            flex-direction: column;
+        }
+        .table-parent-service caption{
+            font-size: 2rem;
+        }
+        .description-parent p{
+            font-size: 1.3rem;
+        }
+    }
+    @media (max-width:550px){
+        .table-parent-service caption{
+            font-size: 1rem;
+        }
+    }
+    @media (max-width:480px){
+        .table-parent-service th, td{
+            font-size: 0.8rem;
+        }
     }

@@ -12,6 +12,7 @@
 }
 .container-content{
     width: 80%;
+    padding-left: 1rem;
     background-color: white;
 }
 #aside-info{
@@ -23,6 +24,7 @@
     padding: 15px;
     text-align: center;
     justify-content: space-around;
+    background-color: #f7f7f7;
 }
 .about-us-cover{
     background-image: linear-gradient(rgba(255, 255, 255, 0),rgba(95, 82, 82, 0.877)), url(../images/about-us.jpg);
@@ -73,9 +75,15 @@
     font-size: 2rem!important;
     }
 }
+@media(max-width:380px){
+    .about-us-text{
+    font-size: 1.5rem!important;
+    }
+}
 @media (max-width:900px){
     .container-root{
         flex-direction: column;
+        
     }
     #aside-info{
         width: 100%;
@@ -89,8 +97,12 @@
         text-align: center;
     }
     .container-content{
+        padding: 0;
         margin: auto;
         width: 90%;
+    }
+    .table-root-service{
+        width: 100%;
     }
     .description-root{
         width: 100%;
