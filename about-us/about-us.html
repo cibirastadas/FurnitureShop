@@ -3,8 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../styles/nav-bar.css">
-    <link rel="stylesheet" href="../styles/nav-bar-mobile.css">
+    <link rel="stylesheet" href="../styles/nav-bar-responsive.css">
     <link rel="stylesheet" href="../styles/footer.css">
     <link rel="stylesheet" href="../styles/responsive-footer.css">
     <link rel="stylesheet" href="about-us.css">
@@ -14,28 +13,18 @@
 </head>
 <body>
     <header>
-        <nav id="nav-bar">
-            <a href="../index.html"><img src="../images/logo.png" alt="logo"></a>
-            <ul>
-                <li><a href="../index.html">Pradinis</a></li>
-                <li><a href="about-us.html">Apie mus</a></li>
-                <li><a href="../services/services.html">Paslaugos</a></li>
-                <li><a href="../contact-us/contact-us.html">Kontaktai</a></li>
-                <li><a href="../furnitures/furnitures.html">Baldai</a></li>
-            </ul>
+        <nav id="nav-bar-responsive">
+            <a class="logo" href="index.html"> <img src="images/logo.png" alt=""></a>
+                <label for="hamburger"><i class="fas fa-bars fa-2x"></i></label>
+                <input type="checkbox" id="hamburger">
+                <ul>
+                    <li><a href="../index.html">Pradinis</a></li>
+                    <li><a href="about-us/about-us.html">Apie mus</a></li>
+                    <li><a href="../services/services.html">Paslaugos</a></li>
+                    <li><a href="../contact-us/contact-us.html">Kontaktai</a></li>
+                    <li><a href="../furnitures/furnitures.html">Baldai</a></li>
+                </ul>
         </nav>
-            <nav id="nav-bar-mobile">
-                <a class="logo" href="../index.html"> <img src="../images/logo.png" alt=""></a>
-                    <label for="hamburger"><i class="fas fa-bars fa-2x"></i></label>
-                    <input type="checkbox" id="hamburger">
-                    <ul>
-                        <li><a href="../index.html">Pradinis</a></li>
-                        <li><a href="about-us.html">Apie mus</a></li>
-                        <li><a href="../services/services.html">Paslaugos</a></li>
-                        <li><a href="../contact-us/contact-us.html">Kontaktai</a></li>
-                        <li><a href="../furnitures/furnitures.html">Baldai</a></li>
-                    </ul>
-            </nav>
     </header>
         <section class="about-us-cover">
             <h1 class="about-us-text">Apie mus</h1>

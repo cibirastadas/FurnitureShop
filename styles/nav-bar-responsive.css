@@ -1,7 +1,7 @@
 .body{
     position: relative;
 }
-#nav-bar-mobile {
+#nav-bar-responsive {
     width: 100%;
     height: auto;
     text-align: end;
@@ -15,40 +15,40 @@
     top:0;
     left: 0;
 }
-#nav-bar-mobile label{
+#nav-bar-responsive label{
     padding: 15px 15px;
 } 
-#nav-bar-mobile label,#hamburger{
+#nav-bar-responsive label,#hamburger{
     display: none;
 }
-#nav-bar-mobile ul{
+#nav-bar-responsive ul{
     display: flex;
     justify-content: flex-end;
 }
-#nav-bar-mobile li{
+#nav-bar-responsive li{
     padding: 15px 0px;
 }
-#nav-bar-mobile li a{
+#nav-bar-responsive li a{
     padding: 12px 12px;
     color: black;
 }
-#nav-bar-mobile ul a:hover{
+#nav-bar-responsive ul a:hover{
     color: white;
     background-color: black;
 }
 @media (max-width: 700px) {
-    #nav-bar-mobile label{
+    #nav-bar-responsive label{
         display: block;
         cursor: pointer;
     }
-    #nav-bar-mobile ul{
+    #nav-bar-responsive ul{
         padding: 0;
         text-align: center;
         flex-direction: column;
         justify-content: center;
         display: none;
     }
-    #nav-bar-mobile ul li{
+    #nav-bar-responsive ul li{
         border:1px solid rgb(235, 235, 235);
     }
     #hamburger:checked + ul{
