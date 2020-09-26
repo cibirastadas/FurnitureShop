@@ -151,6 +151,7 @@ body{
         border: none;
         width: 100%;
     }
+
     .contacts-parent{
         width: 100%;
         flex-direction: row;
@@ -173,16 +174,13 @@ body{
         border-bottom: 1px solid rgb(197, 197, 197) ;
         background-color: #f7f7f7;
     }
-    .time{
-        padding: 0 1rem;
-        text-align: center;
-    }
     .container-content{
         width: 90%;
         margin: auto;
     }
     #map-root{
-        width:100%
+        width:100%;
+        margin:0;
     }
     #form-root{
         padding: 0;

@@ -90,6 +90,14 @@ body{
     padding-top: 0.5rem;
     font-size: 1.2rem;
 }
+@media(max-width:1080px){
+    .furniture-text-background{
+        font-size: 0.8rem;
+    }
+    .funriture-image-child p{
+        font-size:.0.7rem;
+    }
+}
 @media (max-width:900px){
     .container-root{
         flex-direction: column;
@@ -111,5 +119,16 @@ body{
     }
     .funritures-image-container{
         width: 100%;
+    }
+}
+@media (max-width:500px){
+    .funriture-image-child{
+        min-width: 120px;
+    }
+    .furniture-text-background{
+        font-size: 0.4rem;
+    }
+    .funriture-image-child p{
+        font-size:0.9rem;
     }
 }

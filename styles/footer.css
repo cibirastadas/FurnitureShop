@@ -15,11 +15,13 @@ letter-spacing: 3px;
 font-size: 17px;
 margin-bottom: 10px;
 }
-.inner-footer-contacts li{
+.inner-footer-contacts li, a{
     font-size: 17px;
     margin-bottom: 5px;
     color: #b3b0b0;
-    cursor: pointer;
+}
+.inner-footer-contacts a:hover{
+    color: white;
 }
 .fas,.far{
     margin-right: 15px;

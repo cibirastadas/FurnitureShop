@@ -47,6 +47,10 @@
     text-align: center;
     justify-content: space-around;
 }
+.number{
+    display: flex;
+    justify-content: center;
+}
 .table-root-service{
     width: 95%;
     height: auto;
@@ -97,7 +101,6 @@
     }
     .number{
         padding: 0 1rem;
-        text-align: center;
     }
     .container-content{
         padding: 0;

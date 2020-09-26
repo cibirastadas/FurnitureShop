@@ -26,6 +26,10 @@
     justify-content: space-around;
     background-color: #f7f7f7;
 }
+.number{
+    display: flex;
+    justify-content: center;
+}
 .about-us-cover{
     background-image: linear-gradient(rgba(255, 255, 255, 0),rgba(95, 82, 82, 0.877)), url(../images/about-us.jpg);
     height: 50vh;
@@ -84,7 +88,6 @@
     }
     .number{
         padding: 0 1rem;
-        text-align: center;
     }
     .container-content{
         padding: 0;
@@ -102,6 +105,10 @@
     #aside-info{
         text-align: center;
         flex-direction: column;
+    }
+    .number{
+        display: flex;
+        justify-content: center;
     }
     .description-parent h2{
         font-size: 2rem;
